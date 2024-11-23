@@ -2,6 +2,7 @@
 Steps to get Computer Use on Windows with Claude
 Download docker
 open a cmd terminal and type
+export ANTHROPIC_API_KEY=%your_api_key%
 docker pull ghcr.io/anthropics/anthropic-quickstarts:computer-use-demo-latest
 mkdir c:\anthropic         #or similar
 docker run ^
